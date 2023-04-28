@@ -1,0 +1,21 @@
+{
+  "name": "typescr",
+  "version": "1.2.2",
+  "description": "asdasd",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "-"
+  ],
+  "author": "-",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
