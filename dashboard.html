@@ -19,7 +19,10 @@
     />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <!-- При интеграции этого блока в сайт вместо body прописать div и копировать все классы в него <div class = "... rounded"> </div>
+  Изменить width, margin`ы и остальные элементы в соответствии с вашим сайтом.
+  -->
+  <body class="d-flex flex-column w-75 justify-content-center m-auto mt-5 align-items-stretch border m-4 rounded flex-lg-row">
     <!-- Блок со статистикой сайта и популярными товарами -->
 
     <!--span class = keyboard_double_arrow_up иконка со стрелкой вверх ( для показа повышенной статистики ) класс stats__up присваивает зеленый цвет тексту и иконке -->
@@ -106,7 +109,55 @@
     </div>
 
     <!-- Блок с популярными товарами -->
-    <div class="popular">
+    <div class="popular d-flex justify-content-between align-items-center">
+      <!-- Популярный товар -->
+      <div class="popular__product w-25">
+        <img class="w-100" src="img/girl.jpg" alt="girl" />
+
+        <span class="popular__name">Футболка XS с надписью "Dreamer"</span>
+
+        <div class="popular__info">
+          <span class="material-symbols-outlined"> visibility </span>
+          1,100
+        </div>
+      </div>
+
+      <!-- Популярный товар -->
+      <div class="popular__product w-25 mx-2">
+        <img class="w-100" src="img/girl.jpg" alt="girl" />
+
+        <span class="popular__name">Футболка XS с надписью "Dreamer"</span>
+
+        <div class="popular__info">
+          <span class="material-symbols-outlined"> visibility </span>
+          1,100
+        </div>
+      </div>
+
+      <!-- Популярный товар -->
+      <div class="popular__product w-25 ">
+        <img class="w-100" src="img/girl.jpg" alt="girl" />
+
+        <span class="popular__name">Футболка XS с надписью "Dreamer"</span>
+
+        <div class="popular__info">
+          <span class="material-symbols-outlined"> visibility </span>
+          1,100
+        </div>
+      </div>
+
+      <!-- Популярный товар -->
+      <div class="popular__product w-25 mx-2">
+        <img class="w-100" src="img/girl.jpg" alt="girl" />
+
+        <span class="popular__name">Футболка XS с надписью "Dreamer"</span>
+
+        <div class="popular__info">
+          <span class="material-symbols-outlined"> visibility </span>
+          1,100
+        </div>
+      </div>
+
       <!-- Популярный товар -->
       <div class="popular__product w-25">
         <img class="w-100" src="img/girl.jpg" alt="girl" />
@@ -121,6 +172,7 @@
     </div>
 
     <!-- Подключение скриптов -->
+    <script src="app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
