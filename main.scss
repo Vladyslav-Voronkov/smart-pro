@@ -1,0 +1,81 @@
+.stats__popular {
+  padding: 10px;
+}
+
+.stats {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 0.25rem;
+  
+}
+
+.stats__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.stats__up {
+  color: green;
+}
+
+.stats__down {
+  color: red;
+}
+
+.stats__none {
+  color: gray;
+  margin-right: 23px;
+}
+
+.stats__item {
+  border-bottom: 1px gray solid;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+  }
+}
+
+.popular{
+  padding: 10px; 
+}
+
+.popular__product {
+  border: 1px gray solid;
+  padding: 5px; 
+  border-radius: 0.15rem;
+  img{
+    border-radius: 0.15rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  img:hover{
+    transform: scale(1.5);  
+    transition: all 0.3s ease-in-out; 
+  }
+}
+
+.popular__name {
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.popular__info{
+  display: flex;
+  align-items: center;
+  font-size: 12px !important;
+  margin-top: 10px;
+  color: gray;
+  span{
+    margin-right: 2px;
+  }
+}
